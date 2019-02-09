@@ -1,4 +1,9 @@
-
+/**
+ * 
+ * @author nacho
+ * versión inicial
+ *
+ */
 public abstract class FiguraGeometrica {
 
 	protected String tipoFigura;
