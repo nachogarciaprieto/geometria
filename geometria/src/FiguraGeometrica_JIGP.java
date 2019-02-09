@@ -25,4 +25,8 @@ public abstract class FiguraGeometrica_JIGP {
 		this.tipoFigura = tipoFigura;
 	}
 
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
+	
 }
