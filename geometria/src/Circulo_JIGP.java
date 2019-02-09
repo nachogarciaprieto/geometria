@@ -7,6 +7,9 @@ public class Circulo_JIGP extends FiguraGeometrica_JIGP {
 	public Circulo_JIGP(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if(r<0){ //Todo numero que menor que cero es negativo
+			r=r*(-1); 
+			} 
 	}
 
 	@Override
